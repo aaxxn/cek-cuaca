@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cuaca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <!--header-->
+  <header>
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="https://github.com/aaxxn">GitHub</a>
+</nav>
+</header>
+<!--Bagian Cek Cuaca -->
+    <div class="container">
+        <h1 class="judul">Cek Cuaca</h1>
+        <input type="text" class="input" id="kota" placeholder="Masukan Lokasi">
+        <button class="tmbl" id="tombol">Cari</button>
+        <div id="hasil" class="hasil"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 Cek Cuaca. All rights reserved</p>
+      </div>
+    </footer>
+    <!--Script js-->
+    <script src="script.js"></script>
+</body>
+</html>
